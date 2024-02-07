@@ -9,3 +9,4 @@ function button11() {
         console.error("can't redirect")
     }
 }
+document.cookie = "Shave Cookie"
