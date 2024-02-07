@@ -1,9 +1,21 @@
 header {
     color: darkred;
+
 }
 main {
     color: red
 }
 body {
     background-color: black;
+}
+#poster1 {
+    background-color: black;
+}
+#button1 {
+    background-color: black;
+    border-radius: 5px;
+    border-width: 5px;
+    border-color: red;
+    color: red;
+    height: 50px;
 }
