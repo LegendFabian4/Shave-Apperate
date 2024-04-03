@@ -1,19 +1,22 @@
-function button11() {
+function button11old() {
+    document.getElementById("button1").innerHTML = "Dont click on this"
+}
+function button11new() {
     try {
-    confirm1 = confirm("Click OK to redirect")
-    if (confirm1 == true) {
-        console.log("redirecting...")
-        window.open("index1.html")
-        console.log("done!")
+        document.getElementById("button1").innerHTML = "Dont"
     }
-        
-    else {
-        console.log("redirect canceled")
-    }
-    
-    }
-    catch {
-        console.error("can't redirect")
+    catch (err11new) {
+        console.error("Error: ", err11new)
     }
 }
-document.cookie = "Shave Cookie"
+function button12() {
+    try {
+        document.getElementById("button1").innerHTML = "Are you serious right now"
+        window.open("index1.html")
+    }
+    catch (err12) {
+        console.error("Error: ", err12)
+    }
+}
+
+

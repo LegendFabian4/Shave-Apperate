@@ -1,21 +1,21 @@
 header {
-    color: darkred;
-
+    background-color: blueviolet;
+    border-radius: 5px;
 }
 main {
-    color: red
+    background-color: blue;
+    border-radius: 5px;
 }
 body {
     background-color: black;
 }
-#poster1 {
-    background-color: black;
-}
 #button1 {
-    background-color: black;
-    border-radius: 5px;
-    border-width: 5px;
-    border-color: red;
-    color: red;
-    height: 50px;
+    border-radius: 7px;
+    background-color: blue;
+    border-color: darkblue;
+    color: skyblue;
+    font-weight: bold;
 }
+
+
+
